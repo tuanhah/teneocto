@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
+    <script src="scripts/public/jquery-3.3.1.min.js"></script>
+    <script src="scripts/public/firebase.js"></script>
+    <script src="scripts/background.js"></script>
+    <script src="scripts/public/firebase-app.js"></script>
+    <script src="scripts/public/firebase-firestore.js"></script>
+    <script src="scripts/public/firebase-database.js"></script>
+</head>
+
+<body>
+    <div id="popup" class="d-flex p-3 flex-column">
+        <div id="list-button" class="row justify-content-center">
+            <div class="col-6">
+                <button type="button" class="btn btn-light" id="add-btn" data-toggle="modal" data-target="#nameAccount">Add Account</button>
+                
+            </div>
+            <div class="col-6">
+                <button type="button" class="btn btn-light" id="clear-btn"> Clear Cookies</button>
+            </div>
+        </div>
+        <div id="list-accounts">
+            <table class="table overflow-auto text-center mt-3 mb-1">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody id="table-body">
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>

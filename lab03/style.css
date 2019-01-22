@@ -1,0 +1,386 @@
+#SECTION1{
+    display: block;
+    width: 1284px !important;
+    height: 823px !important;
+    background-image: url(https://static.ladipage.net/s1440x1000/uploads/images/6cc152d9-befc-42a3-8272-d31c7f43cc8a.jpg);
+    background-repeat: no-repeat;
+}
+.container-h2{
+    margin: 33px;
+    
+}
+h2{
+    text-align: center;
+}
+#s1-d1{
+    border-color:#535353;
+    border-style: solid;
+    border-width: 5px;
+    width: 255px;
+    height: 441px; 
+    margin-left:400px; 
+}
+.container-s1{
+    z-index: 1;
+}
+
+
+#SECTION2{
+    width: 1284px !important;
+    height: 738px !important;
+    background-color: #EEEEEE;
+    background-repeat: no-repeat;
+
+}
+body{
+    
+}
+.s2-ib1{
+    background-image: url(https://static.ladipage.net/s400x600/uploads/images/ab77e1a6-b836-44d9-af48-6e58c84cb65b.jpg);
+}
+#s2-ib2{
+    /* display: inline-block; */
+    height: 357px;
+    width: 538px;
+
+}
+.para{
+    margin-left: 60px;
+    /* display: inline-block;  */
+}
+.a-line{
+    /* display: inline-block; */
+}
+#SECTION3{
+    /* display: block; */
+    width: 1284px !important;
+    height: 698px !important;
+    
+    background-repeat: no-repeat;
+
+}
+.height-81{
+    height: 81px;
+    margin-bottom: 50px;
+}
+.s3-svg{
+    height: 50px;
+    width: 50px;
+    margin-left: 16px;
+}
+svg {
+    margin-right: 5px;
+}
+#s3-r-1{
+    margin-top: 90px;
+}
+#s3-left{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://static.ladipage.net/s1100x800/uploads/images/6478bdc8-db8c-4549-8e7b-fb4ce7161386.png);
+}
+#SECTION4{
+    /* display: block; */
+    width: 1284px !important;
+    height: 627px !important;
+    background-color: #FFFFFF;
+    background-repeat: no-repeat;
+
+}
+
+.height-88{
+    height: 88px;
+}
+.s4-h2{
+    color: rgba(148,148,148,1);
+    font-weight: 700;
+    line-height: 18px;
+    font-size: 14px;
+    margin-top : 10px;
+}
+#s4-icon{
+    margin-top:30px;
+}
+.line{
+    border-style: solid;
+    border-color:#BDBDBD;
+    border-style: solid;
+    border-width: thin;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    height: 20px;
+    width: 170px;
+
+
+}
+.s4-p{
+    font-family: 'Open Sans';
+    /* -webkit-font-smoothing: antialiased; */
+    color: rgba(115,104,104,1);
+    font-weight: 400;
+    line-height: 19px;
+    font-size: 15px;
+    text-align: center;
+}
+#s4-step{
+    margin-top:30px; 
+}
+.s4-steps{
+    display: flex;
+}
+.circle{
+    color:#939393;
+    width: 50px;
+    height: 50px;
+    line-height: 46px;
+    border-radius: 50%; /* the magic */
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    text-align: center;
+    border-style: solid;
+    border-color:#BDBDBD;
+}
+#SECTION5{
+    /* display: block; */
+    width: 1284px !important;
+    height: 679px !important;
+    background-color: #EEEEEE;
+    background-repeat: no-repeat;
+
+}
+.height-182{
+    height: 162px;
+}
+.img{
+    background-repeat: no-repeat;
+    margin-left:15px; 
+    background-size: cover;
+    background-position: center;
+}
+.img-1{
+    background-image: url(https://static.ladipage.net/s400x300/uploads/images/d0e76e09-e41c-49f8-83d8-d03b10ce969a.jpg);
+}
+.img-2{
+    background-image: url(https://static.ladipage.net/s400x300/uploads/images/531c2c32-887e-4482-87f4-ce716369ae3d.png);
+}
+.img-3{
+    background-image: url(https://static.ladipage.net/s400x300/uploads/images/1226ebe2-f6b3-4e61-896c-261033a963aa.png);
+}
+.img-4{
+    background-image: url(https://static.ladipage.net/s400x300/uploads/images/085ab618-7e64-4681-920a-32de89792717.png);
+    
+}
+
+.img-5{
+    background-image: url(https://static.ladipage.net/s400x300/uploads/images/a9b6fa7f-0417-452c-abc9-4da66e8be568.png);
+}
+
+.img-6{
+    background-image: url(https://static.ladipage.net/s400x300/uploads/images/1226ebe2-f6b3-4e61-896c-261033a963aa.png);
+}
+
+.img-7{
+    background-image: url(https://static.ladipage.net/s400x300/uploads/images/085ab618-7e64-4681-920a-32de89792717.png);
+}
+
+.img-8{
+    background-image: url(https://static.ladipage.net/s400x300/uploads/images/f841206d-6f71-405c-ae01-070b4cab8aaa.jpg);
+    
+}
+
+#SECTION6{
+    /* display: block; */
+    width: 1284px !important;
+    height: 649px !important;
+    background-color: #EEEEEE;
+    background-repeat: no-repeat;
+
+}
+.s6-img-1{
+    background-image: url(https://static.ladipage.net/s400x500/uploads/images/aef0c761-7b75-4540-8994-ca0675ff8376.jpg);
+}
+.s6-img-2{
+    background-image: url(https://static.ladipage.net/s400x500/uploads/images/e8d8461a-eea4-4f8a-84b7-8688231b046e.jpg);
+}
+.s6-img-3{
+    background-image: url(https://static.ladipage.net/s400x500/uploads/images/f0058ee4-e0df-4a24-a0ef-2c4eaca6457e.jpg);
+}
+.s6-img-4{
+    background-image: url(https://static.ladipage.net/s400x500/uploads/images/cc7e2a2f-0a0c-407b-a0d4-2fe1f9784518.jpg);
+}
+.s6-img{
+    
+}
+.s6-name{
+    opacity: 1;
+    font-family: 'Open Sans',sans-serif;
+    color: rgba(82,82,82,1);
+    font-weight: 700;
+    line-height: 18px;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 24px;
+
+}
+.s6-cv{
+    opacity: 1;
+    font-family: 'Open Sans';
+    -webkit-font-smoothing: antialiased;
+    color: rgba(82,82,82,1);
+    font-weight: 400;
+    line-height: 17px;
+    font-size: 13px;
+    text-align: center;
+    margin-top: 14px;
+}
+.h-223{
+    width: 223px !important;
+    margin-top:80px; 
+}
+#SECTION7{
+    /* display: block; */
+    width: 1284px !important;
+    height: 290px !important;
+    background-color: #FAFAFA;
+    background-repeat: no-repeat;
+
+}
+.s7-1{
+    font-family: 'Open Sans';
+    -webkit-font-smoothing: antialiased;
+    color: rgba(115,104,104,1);
+    font-weight: 400;
+    line-height: 40px;
+    font-size: 36px;
+    text-align: center;
+}
+.s7-2{
+    font-family: 'Open Sans';
+    -webkit-font-smoothing: antialiased;
+    color: rgba(115,104,104,1);
+    font-weight: 400;
+    line-height: 17px;
+    font-size: 14px;
+    text-align: center;
+}
+.s7-svg{
+    margin-left: 67px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+#SECTION8{
+    /* display: block; */
+    width: 1284px !important;
+    height: 588px !important;
+    background-color: #FFFFFF;
+    background-repeat: no-repeat;
+
+}
+.s8-img{
+    background-image: url(https://static.ladipage.net/s1100x700/uploads/images/03ab1565-3bcd-4803-9466-f97cbaca608d.jpg);
+}
+.s8-r-img{
+    height: 164px;
+    width: 164px !important;
+    border-radius: 50%; /* the magic */
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    background-image: url(https://static.ladipage.net/s300x300/uploads/images/563949f5-8c9f-4a52-a211-98ff8a6a10ed.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 120px;
+    margin-left: 150px;
+}
+.s8-b{
+    margin-top: 40px;
+    margin-left: 50px;
+}
+.s8-p{
+    font-family: 'Open Sans';
+    color: rgba(115,104,104,1);
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 1px;
+    font-size: 15px;
+    text-align: center;
+}
+.s8-h1-1{
+    font-family: 'Open Sans';
+    color: rgba(115,104,104,1);
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 1px;
+    font-size: 15px;
+    text-align: center;
+}
+.s8-h1-2{
+    font-size: 13px;
+    text-align: center;
+    -webkit-font-smoothing: antialiased;
+    color: rgba(115,104,104,1);
+    font-weight: 300;
+    line-height: 16px;
+    letter-spacing: 0px;
+    font-family: 'Open Sans';
+    
+}
+#SECTION9{
+    /* display: block; */
+    width: 1284px !important;
+    height: 286px !important;
+    background-color: #EEEEEE;
+    background-repeat: no-repeat;
+
+}
+#SECTION10{
+    /* display: block; */
+    width: 1284px !important;
+    height: 440px !important;
+    background-color: #FFFFFF;
+    background-repeat: no-repeat;
+
+}
+.s10-span{
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 13px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #24252D;
+    color:white;
+    line-height: 45px;
+    margin-left:600px;
+    margin-top:10px;
+}
+#SECTION11{
+    /* display: block; */
+    width: 1284px !important;
+    /* height: 201px !important; */
+    background-color: #EEEEEE;
+    background-repeat: no-repeat;
+
+}
+.s11-div-1{
+    background-color: #24252D;
+    border-bottom: 1px solid rgba(255,255,255,0.12);
+}
+.s11-svg{
+    margin-top: 20px;
+    margin-right: 25px;
+}
+.s11-div-2{
+    background-color: #24252D;
+    margin:0;
+    
+
+}
+.s11-text{
+    opacity: 1;
+    font-family: 'Open Sans';
+    color: rgba(255,255,255,0.49) !important;
+    font-weight: 400;
+    line-height: 18px;
+    font-size: 15px;
+}

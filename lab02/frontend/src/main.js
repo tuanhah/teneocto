@@ -3,13 +3,19 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import VueTableRowEdit from 'vue-table-row-edit'
 
 Vue.config.productionTip = false
 
 
+Vue.use(VueTableRowEdit);
+
 
 
 /* eslint-disable no-new */
+
+
+
 new Vue({
   el: '#app',
   router,
