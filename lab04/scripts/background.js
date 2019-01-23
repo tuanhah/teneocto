@@ -26,13 +26,13 @@ $(document).ready(function () {
     })
     $(document).on("click", ".delete-btn", (event) => {
         let id = event.target.id.split("-")[1];
-        removeAccount(id);    
-       
+        removeAccount(id);
+
     });
 
     $(document).on("click", ".switch-btn", (event) => {
         let id = event.target.id.split("-")[1];
-        switchAccount(id);    
+        switchAccount(id);
     });
 });
 fetchData = () => {
@@ -101,7 +101,7 @@ addAccount = () => {
                 }
 
             });
-            
+
 
 
         }
@@ -109,48 +109,69 @@ addAccount = () => {
 
 }
 
-removeAccount = (id)=>{
-    userRef.doc(id).delete().then(()=>{
+removeAccount = (id) => {
+    userRef.doc(id).delete().then(() => {
         fetchData();
     })
 }
 
-clearCookies =()=>{
+clearCookies = () => {
     chrome.cookies.remove({
         url: "https://facebook.com",
         name: "c_user"
     });
-   
+
     chrome.tabs.query({ url: "https://www.facebook.com/*" }, function (tabs) {
-        tabs.forEach((tab)=>{
-            chrome.tabs.update(tab.id,{url: tab.url});
+        tabs.forEach((tab) => {
+            chrome.tabs.update(tab.id, { url: tab.url });
         })
     })
 }
 
-switchAccount = (id)=>{
-    userRef.doc(id).get().then((res)=>{
+switchAccount = (id) => {
+    userRef.doc(id).get().then((res) => {
         cookies = res.data().cookies;
-        
-        for (var i = 0; i <  cookies.length; i++)
-        {
+        // var switch_promise = new Promise(() => {
+        //     for (var i = 0; i < cookies.length; i++) {
+        //         delete cookies[i].session;
+        //         delete cookies[i].hostOnly;
+        //         chrome.cookies.set({
+        //             ...cookies[i],
+        //             url: "https://facebook.com"
+        //         });
+        //     }
+        // });
+        // switch_promise.then(() => {
+        //     chrome.tabs.query({ url: "https://www.facebook.com/*" }, function (tabs) {
+        //         tabs.forEach((tab) => {
+        //             chrome.tabs.update(tab.id, { url: tab.url });
+        //         })
+        //     })
+        // }).catch(()=>{
+        //     chrome.tabs.query({ url: "https://www.facebook.com/*" }, function (tabs) {
+        //         tabs.forEach((tab) => {
+        //             chrome.tabs.update(tab.id, { url: tab.url });
+        //         })
+        //     })
+        // })
+        for (var i = 0; i < cookies.length; i++) {
             delete cookies[i].session;
-                delete cookies[i].hostOnly;
-                chrome.cookies.set({
-                    ...cookies[i],
-                    url: "https://facebook.com"
-                });
+            delete cookies[i].hostOnly;
+            chrome.cookies.set({
+                ...cookies[i],
+                url: "https://facebook.com"
+            });
         }
-        
+
     })
 
-    setTimeout(function(){
+    setTimeout(function () {
         chrome.tabs.query({ url: "https://www.facebook.com/*" }, function (tabs) {
-        tabs.forEach((tab)=>{
-            chrome.tabs.update(tab.id,{url: tab.url});
+            tabs.forEach((tab) => {
+                chrome.tabs.update(tab.id, { url: tab.url });
+            })
         })
-    }) 
-    },3000);
+    }, 3000);
     // chrome.tabs.query({ url: "https://www.facebook.com/*" }, function (tabs) {
     //     tabs.forEach((tab)=>{
     //         chrome.tabs.update(tab.id,{url: tab.url});
