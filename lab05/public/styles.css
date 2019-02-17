@@ -1,0 +1,10 @@
+
+td{
+    margin-right: 3px;
+}
+#sound{
+    background-image: url("icon.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}

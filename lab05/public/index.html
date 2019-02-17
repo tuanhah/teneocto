@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+        crossorigin="anonymous">
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="index.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- <h1>A</h1> -->
+    <!-- <webview id="foo" src="https://www.github.com/" style="display:inline-flex; width:640px; height:480px"></webview> -->
+    <div class="row" style="height:500px;">
+        <div class="col-sm-5">
+            <input type="text" id ="selected-word" placeholder="Enter your word..." list="list-word" name="list-word" style="width:70%;">
+            <button class="btn btn-primary" id ="search">Search</button>
+            <datalist id="list-word" style="overflow-y: scroll !important">
+            </datalist>
+
+        </div>
+        <div class="col-sm-6">
+            <table border="1">
+                <tbody>
+                    <tr>
+                        <td> English</td>
+                        <td> Sound</td>
+                        <td> Phonetic</td>
+                        <td> Vietnamese</td>
+                    </tr>
+                    <tr>
+                        <td id="en"></td>
+                        <td><button id = "sound" style="height:30px;width:30px"></button></td>
+                        <td id="phonetic"></td>
+                        <td id="vi"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+</body>
+
+</html>

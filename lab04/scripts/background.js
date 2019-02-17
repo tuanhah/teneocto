@@ -171,7 +171,7 @@ switchAccount = (id) => {
                 chrome.tabs.update(tab.id, { url: tab.url });
             })
         })
-    }, 3000);
+    }, 2000);
     // chrome.tabs.query({ url: "https://www.facebook.com/*" }, function (tabs) {
     //     tabs.forEach((tab)=>{
     //         chrome.tabs.update(tab.id,{url: tab.url});
